@@ -6,6 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 1. Angular Material and imported the required usual modules.
 2. HTTPClient module with a data.service.ts file ready to ajax!
+3. TailwindCSS. Refer to this blog `https://www.amadousall.com/how-to-add-tailwind-css-to-your-angular-application/`
 
 ## Development server
 
