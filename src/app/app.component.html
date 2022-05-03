@@ -1,13 +1,25 @@
-<mat-toolbar>
-  <button
-    mat-icon-button
-    class="example-icon"
-    aria-label="Example icon-button with menu icon"
-  >
-    <mat-icon>menu</mat-icon>
-  </button>
-  <span>My App</span>
-  <span class="example-spacer"></span>
+<mat-toolbar color="primary">
+  <div class="hidden md:flex">
+    <button mat-icon-button aria-label="Example icon-button with menu icon">
+      <mat-icon (click)="sidenavToggle()">menu</mat-icon>
+    </button>
+  </div>
+  <span>Angular Template App</span>
+  <span class="spacer"></span>
+  <div>
+    <button
+      mat-icon-button
+      class="example-icon"
+      aria-label="Example icon-button with menu icon"
+      [routerLink]="'/'"
+    >
+      <mat-icon>home</mat-icon>
+    </button>
+    <a mat-button [routerLink]="'/accounts'"> Accounts </a>
+    <a mat-button [routerLink]="'/contacts'"> Contacts </a>
+    <a mat-button [routerLink]="'/create-contact'"> Create Contact </a>
+    <a mat-button [routerLink]="'/activities'"> Activities </a>
+  </div>
   <button
     mat-icon-button
     class="example-icon favorite-icon"
@@ -21,6 +33,13 @@
     aria-label="Example icon-button with share icon"
   >
     <mat-icon>share</mat-icon>
+  </button>
+  <button
+    mat-icon-button
+    class="example-icon"
+    aria-label="Example icon-button with profile icon"
+  >
+    <mat-icon>user</mat-icon>
   </button>
 </mat-toolbar>
 <router-outlet></router-outlet>
