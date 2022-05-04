@@ -1,5 +1,15 @@
 $primary: #e14eca !default;
+$transparent-bg: transparent !default;
 $full-width: 100% !default;
+$white: #ffffff !default;
+$black: #000000 !default;
+$font-paragraph: 1rem !default;
+$font-weight-bold: 600 !default;
+
+$background-black: #171941 !default;
+$body-bg: $background-black !default;
+$dark-gray: #9a9a9a !default;
 
 // Navbar
 $navbar-padding-x: 0.9375rem !default;
+$opacity-8: rgba(255, 255, 255, 0.8) !default;

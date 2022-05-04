@@ -1,0 +1,8 @@
+@import "../assets/scss/angular-template/custom/variables";
+
+body {
+  background-color: $body-bg;
+}
+.spacer {
+  flex: 1 1 auto;
+}
