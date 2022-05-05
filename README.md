@@ -8,6 +8,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 2. HTTPClient module with a data.service.ts file ready to ajax!
 3. TailwindCSS. Refer to this blog `https://www.amadousall.com/how-to-add-tailwind-css-to-your-angular-application/`
 4. Cleaned up all html template stuff and added a toolbar with a menu.
+5. For 04-ngx-bootstrap I have removed TailwindCSS to install and use ngx-bootstrap by itself as they are incompatible
 
 ## Development server
 
