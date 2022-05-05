@@ -7,6 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-template';
-
-  sidenavToggle = () => console.log('Side Navbar to toggle now');
 }
