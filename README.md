@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## This project has added:
 
-1. Angular Material and imported the required usual modules.
+1. Angular template
 
 ## Development server
 
