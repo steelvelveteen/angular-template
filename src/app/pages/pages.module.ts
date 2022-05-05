@@ -5,11 +5,12 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 import { HomeComponent } from './home/home.component';
+import { NavbarComponent } from '../components/navbar/navbar.component';
 
 @NgModule({
   imports: [CommonModule, BrowserModule, FormsModule, RouterModule],
-  declarations: [HomeComponent],
-  exports: [HomeComponent],
+  declarations: [HomeComponent, NavbarComponent],
+  exports: [HomeComponent, NavbarComponent],
   providers: [],
 })
 export class PagesModule {}
