@@ -4,8 +4,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## This project has added:
 
-1. Angular Material and imported the required usual modules.
-2. HTTPClient module with a data.service.ts file ready to ajax!
+1. Angular template
+2. Angular Material and imported the required usual modules.
+3. HTTPClient module with a data.service.ts file ready to ajax!
 
 ## Development server
 
