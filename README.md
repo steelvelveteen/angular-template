@@ -5,6 +5,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## This project has added:
 
 1. Angular template
+2. First introduction tutorial to unit testing with Jasmine
+3. Followed an Fireship quick start tutorial with a newly generated alert-button component.
 
 ## Development server
 
